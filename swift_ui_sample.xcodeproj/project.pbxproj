@@ -13,6 +13,9 @@
 		AF2333A7255670E2004DF479 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2333A6255670E2004DF479 /* Preview Assets.xcassets */; };
 		AF2333B2255670E2004DF479 /* swift_ui_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2333B1255670E2004DF479 /* swift_ui_sampleTests.swift */; };
 		AF2333BD255670E2004DF479 /* swift_ui_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2333BC255670E2004DF479 /* swift_ui_sampleUITests.swift */; };
+		AF2333CE25567C7B004DF479 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2333CD25567C7B004DF479 /* MapView.swift */; };
+		AF2333D325567E35004DF479 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2333D225567E35004DF479 /* CircleImage.swift */; };
+		AF2333D8255683FC004DF479 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2333D7255683FC004DF479 /* Landmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		AF2333B8255670E2004DF479 /* swift_ui_sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_ui_sampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2333BC255670E2004DF479 /* swift_ui_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_ui_sampleUITests.swift; sourceTree = "<group>"; };
 		AF2333BE255670E2004DF479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2333CD25567C7B004DF479 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		AF2333D225567E35004DF479 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		AF2333D7255683FC004DF479 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				AF2333A3255670E2004DF479 /* Assets.xcassets */,
 				AF2333A8255670E2004DF479 /* Info.plist */,
 				AF2333A5255670E2004DF479 /* Preview Content */,
+				AF2333CD25567C7B004DF479 /* MapView.swift */,
+				AF2333D225567E35004DF479 /* CircleImage.swift */,
+				AF2333D7255683FC004DF479 /* Landmark.swift */,
 			);
 			path = swift_ui_sample;
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF2333A2255670DE004DF479 /* ContentView.swift in Sources */,
+				AF2333D325567E35004DF479 /* CircleImage.swift in Sources */,
+				AF2333CE25567C7B004DF479 /* MapView.swift in Sources */,
 				AF2333A0255670DE004DF479 /* swift_ui_sampleApp.swift in Sources */,
+				AF2333D8255683FC004DF479 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
